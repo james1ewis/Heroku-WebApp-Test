@@ -2,5 +2,7 @@ package herokutest
 
 class HelloWorldController {
 
-    def index() { }
+    def index() { 
+      render "Hello World!"
+    }
 }
